@@ -1,0 +1,75 @@
+Data type defined as
+1. The kind of data a variable can store.
+2. The range of data a variable can hold.
+3. The opeartions that can be performed on that data
+4. The amount of memory allocated to store that data.
+
+Primitive
+	- stores data directly in the memory(Stack)
+	- Stores data and refernce both in Slack Frame of the method
+	- predefined - size, range, kind of data
+	- Ex: int byte
+
+Reference/Non-primitive/Object types
+	- stores only refernce(address of the memory) of the data in the memory
+	- stores only refernces in Stack frame, Data will store in Heap becaues of object types
+	- user-defined
+	- Ex: String, Array, Objects
+	
+byte	
+	size: 1byte/8bits
+	range: -128 to 127
+	usage: Byte is best when handling raw-binary data
+			1. File opeartions(read/write bytes)
+			2. Network Data transfer(streams)
+
+short
+	size: 2bytes/16bits
+	range: -32768 to 32767
+	usage: We rarely use in modern programming
+		1. Originally we're using 16bit processors like Intel 8086, 
+		2. nowadays, we are using 32/64 bit processors
+		3. Whenever we need memory optimization that time we can use short.
+
+int 
+	size: 4bytes/32bits
+	range: -2^31 to 2^31-1
+	usage: Most commonly use in modern programming
+		1. Default data type for all integers
+		2. Offers a good balance between range & memory usage.
+		3. Efficiently handled by modern 32bit & 64 bit processors
+		
+long
+	size: 8bytes/64 bits
+	range: -2^63 to 2^63-1
+	usage: Use when int range is not sufficient to store large interger values like mobile numbers
+	must and should use prefix as L or l.
+	
+float
+	size:  4bytes/32bits
+	range: -3.4e38 to 3.4e38(-3.4 * 10^38 to 3.4 * 10^38)
+	accuracy: 5-6 decimal places
+	precision: single precision
+	how to represent: use prefix f/F
+	Usage: When memory optimization is critical & moderate precision is okay
+
+
+double
+	size: 8bytes/64bits
+	range: -1.7e308 to 1.7e308(-1.7* 10^308 to 1.7* 10^308)
+	accuracy: 14-15 decimal places
+	precision: double precision
+	how to represent: use prefix d/D/no prefix becauese default type all decimal numbers
+	Usage: When more precision is needed, like Calculations
+
+boolean:
+	size: not precisely defined in Java(JVM dependent)
+			- Typically/conceptually  1bit 
+			- But stored as 1 Byte or more
+	range: NA - can only be true or false
+	usage: To store logical values and control program flow in conditional statements and loops.
+	- Java enforces type safety - interger cannot converted to boolean. 
+	- This avoids many logical problems that we're facing in C/C++.
+
+	
+	
