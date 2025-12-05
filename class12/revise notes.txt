@@ -1,0 +1,64 @@
+Datatype
+1. The kind of data a variable can be store.
+2. The range of data a variable can hold.
+3. The operations that can be performed on that data.
+4. The amount of memory allocated to store that data.
+
+Primitive
+	- Stores values directly in the memory(Stack)
+	- predefined
+	- Ex: byte, short, int, long, float, double, boolean, char
+
+Reference
+	- Stores only references(Stack) of data or values(Heap) in the memory
+	- Userdefined
+	- Ex: String, Array, Objects
+	
+byte:
+	size: 1byte/8bits
+	range: -128 to 127
+	usage: handling raw binary data ex: File operations(read/write bytes)
+										Network Data Transfer(streams)
+
+short:
+	size: 2bytes/16bits
+	range: -32768 to 32767(-2^15 to 2^15-1)
+	usage: Rarely use in modern programing
+	- originally used for 16-bit processor like Intel 8086
+	- But today we are using 32/64bit processors
+	- If need memory optimization is crictical
+	
+int:
+	size: 4bytes/32bits
+	range: -2^31 to 2^31-1
+	usage: We commonly use in modern programing
+		- default type for all integers
+		- good balance between range and memory size
+
+long 
+	size: 8bytes/64bits
+	range: -2^63 to 2^63-1
+	usage: Whenever the range of int is not sufficent, that time can use long
+	- must and should use l/L if the int value is out of range for int
+	
+float
+	size: 4bytes/32bits
+	range: -3.4E38 to 3.4E38(-3.4*10^38 to 3.4*10^38)
+	accuracy: 5-6 decimal places
+	precision: single precision
+	usage: When we need moderate precision & memory optimization is crictical.
+	
+double:
+	size: 8bytes/64bits
+	range: -1.7e308 to 1.7e308
+	accuracy: 14-15 decimal places
+	precision: double precision
+	usage: When we need high precision and not worried about memory optimization
+				ex: Calculations
+
+boolean:
+	size: In Java, not accurately defined, JVM depedent
+			(typically or conceptuallu 1bit, but JVM min 1byte or more)
+	range: NA - true/false
+	usage: conditional statements
+

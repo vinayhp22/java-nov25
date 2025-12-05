@@ -2,8 +2,8 @@ class IntAndLongDemo {
 	public static void main(String[] args){
 		int i1 = 100000;
 		long l1 = 100000; //int value is converting long data
-		// int i2 = 9234567890; - out of range
-		long l2 = 9234567890l; // directly assigning long value using prefix L/l
+		int i2 = 7234567890; - out of range
+		long l2 = 7234567890L; // directly assigning long value using prefix L/l
 		int i1 = 10l; // long value cannot be convert to int
 
 		System.out.println(i1);

@@ -1,0 +1,10 @@
+char = single 16bit unicode characters
+	size: 2bytes/16bits
+	range: 0 to 65537(\u0000 to \uFFFF)
+	
+	ASCIII system: symbols + engish numbers & alphabets
+	Unicode system: symbols + all over world languages
+	number(Base 10) system: 0-9
+	octal(Base 8) system: 0-7
+	Hexadecimal (Base 16) system: 0-9 A, B, C, D, E, F
+	

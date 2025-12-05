@@ -72,4 +72,8 @@ boolean:
 	- This avoids many logical problems that we're facing in C/C++.
 
 	
-	
+Task:
+Declare and assign 10 different values 
+to all primitive(except char) and print.
+
+Create a folder in git and share by tonight.

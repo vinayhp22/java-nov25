@@ -22,6 +22,19 @@ class FloatAndDoubleDemo {
 		//double d7 = false; //CE: incompatible types: boolean cannot be converts to double
 		double d8 = 22/7d;
 		System.out.println("Double: "+d8); //Double: 3.142857142857143
-												// => 14-15 decimal places accuracy
+			
+									// => 14-15 decimal places accuracy
+		
+		
+		long l1=-89864111L;
+		System.out.println("long l1= "+l1);
+		float f8= l1;
+		System.out.println("float f8: " +f8);
+		
+		
+		float f10 = 8.899729728972969f;
+		System.out.println("float f10: " +f10);
+		double d10 = 8.899729728972969f;
+		System.out.println("float d10: " +d10);
 	}
 }	
