@@ -1,0 +1,23 @@
+Datatype can be defined as
+1. The kind of data a variable can hold like Integers, floating-point numbers, String or Objects
+2. The range of data a variable can store like for byte(-128 to 127)
+3. The operations that can be performed on that data like arithmatic operations for integers or floating-point
+4. The amount of memory allocated for storing that data like int(4bytes)
+
+There are 2 types of Datatypes
+i. Primitive Datatypes
+	- stores data directly to the memory(stack)
+	- predefined by Java lang
+	- There 8 types of Primitive data types
+		1. byte - 1byte - -128 to 127 - handling raw binary data : File operations, Network Data Tranfer
+		2. short - 2bytes - rarely use in modern programing
+		3. int - 4bytes - most commonly : default, good balance b/w range & size
+		4. long - 8bytes - whenever int's range is not sufficient & memory optimization is not imp
+		5. float - 4bytes - 5-6 decimal places - memory optimization is critical & moderate precision/accuracy
+		6. double - 8bytes - 14-15 decimal places - high precision/accuracy & memory optimization is not imp
+		7. char - 2bytes - 0 to 65535 - a single 16 bit unicode characters
+		8. boolean - ND, JVM dependent, typically 1bit enough but JVM allocates 1byte or more to store true/false
+ii. Reference Datatypes
+	- stores only reference(address of memory) of data
+	- user defined(developers will define)
+	- Exs: String, Array, Classes/Objects

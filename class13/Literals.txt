@@ -1,0 +1,11 @@
+Literal: A literal is a fixed, constant value directly written in the code that can be assigned to a variable.
+Types:
+1. Integer Literals
+	- Number System/ Decimal System = 0-9
+	- Octal System = 0-7, use prefix 0
+	- Hexadecimal System = 0-9 a-f/A-F, use prefix 0x or 0X
+2. Floating-point Literals
+3. String Literals
+4. Character Literals
+5. Boolean Literals
+
