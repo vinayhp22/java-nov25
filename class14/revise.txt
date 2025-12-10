@@ -1,0 +1,38 @@
+1. Integer Literal
+	1. decimal literal/ number system(0-9)
+	2. octal literal (0-7)
+	3. hexadecimal literal (0-9 A-F/a-f) - caseinsensitive for hexadecimal
+2. Floating-point Literal
+	
+3. Character Literal
+4. Boolean Literal
+5. String Literal\
+
+Datatypes: Type of data a variable is storing
+Datatype in java can be defined as 
+1. The kind of data a variable is storing ex: integer, decimal, String, Character, Boolean
+2. The range of data a variable is holding ex: byte: -128 to 127
+3. The operations that can be performed on that data: arithmatic
+4. The amount of memory allocated for storing that data: byte: 1byte, int: 4bytes
+
+2 types of Datatypes
+1. Primitive Datatypes
+	- stores values directly in the memory(Stack Segment of the JVM)
+	- predefined Datatypes
+	- 8 types
+	//Integer
+		- byte - 1byte(8bits) - -128 to 127
+		- short - 2bytes(16bits) - -32k to 32k
+		- int - 4bytes/32bits - -2bn to 2bn
+		- long - 8bytes/64bits 
+	//Demical 
+		- float - 4bytes - 5-6 decimal places accuracy
+		- double - 8bytes - 14-15 decimal places
+	
+		- char - a single 16bit unicode character - 2bytes/16bits - 0 - 65535
+		- boolean - true/false - size: JVM depedent - 1bit, but JVM allocate 1byte or more
+
+2. Reference Datatypes
+	- stores only refernces in the memory
+	- Userdefined Datatypes
+	- String, Arrays, Objects
