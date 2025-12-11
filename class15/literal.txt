@@ -1,0 +1,37 @@
+Literal = The value that is assigning to a variable is called a literal
+Types:
+1. Integer Literal
+	1. Decimal Literal/ Numberic Literal => 0-9, directlty without any prefix or suffix
+	2. Octal Literal => 0-7, prefix: 0
+	3. Hexadecimal Literal => 0-9, a-f, prefix: 0x, case insensitive
+2. Floating point literal
+	1. Decimal Literal
+	2. Scientific Notation or Exponentional Notation
+		- use e => 10
+3. Boolean Literal
+	1. true/false => conditional literal
+	
+4. Character Literal
+	1. Single character in single quotes
+	2. Integer value -> decimal, octal, hexadecimal
+	3. Unicode escape sequence
+		- single quotes
+		- prefix \u
+		- 4 digits
+	4. Java's Escape Sequence
+		- predefined by Java
+		- prefix '\' and single quotes
+5. String Literal
+	- double quotes
+	
+	
+In Java 7 =>
+1. Binary Literals
+	0 -> 0
+	1 -> 1
+	2 -> 10
+	3 -> 11
+	4 -> 100
+	5 -> 101
+
+2. Underscore
