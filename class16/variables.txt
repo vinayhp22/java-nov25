@@ -1,0 +1,18 @@
+Variable: is a name given to a memory address to store some data.
+3 types based on position of declaration and behaviour
+- 1. static variable => outside a method/block, inside a class, use keyword static
+	- Class Level Variables
+	- access using ClassName 
+	- The value of a variable is common for all objects in the class, that variable we call it as static variable 
+- 2. instance/ non-static variable => outside a method/block, inside a class
+	- Object Level Variable
+	- access using object reference
+	- The value of a variable is changes from object to object, that variable we call it as instance variable 
+
+- 3. local variable => a variable that we write inside a method/block
+	- Temporary Variables
+	- The value of a variable is temporary for a method 
+
+
+new keyword:
+Used to create a new object
