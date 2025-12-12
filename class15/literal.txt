@@ -33,5 +33,6 @@ In Java 7 =>
 	3 -> 11
 	4 -> 100
 	5 -> 101
+	- prefix 0b/0B
 
 2. Underscore
